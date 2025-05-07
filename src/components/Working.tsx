@@ -26,7 +26,7 @@ const Working = () => {
   return (
     <section id="how-it-works" className="py-16  dark:bg-white/10 bg-white/40 backdrop-blur-lg border dark:border-white/20 border-white/50 rounded-lg">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 dark:text-white ">How It Works</h2>
+        <h2 className="text-4xl font-bold text-center mb-6 bg-gradient-to-r from-pink-500 to-purple-600 dark:from-pink-400 dark:to-purple-500 bg-clip-text text-transparent ">How It Works</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {workingSteps.map((step, idx) => (

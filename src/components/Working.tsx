@@ -32,7 +32,7 @@ const Working = () => {
           {workingSteps.map((step, idx) => (
             <div 
               key={idx} 
-              className="flex flex-col items-center text-center bg-white/90 dark:bg-gray-900 p-8 rounded-xl shadow-md hover:shadow-lg transition-all transform hover:scale-105"
+              className="flex flex-col items-center text-center bg-white/90 dark:bg-gray-800/80 p-8 rounded-xl shadow-md hover:shadow-lg transition-all transform hover:scale-105"
             >
               <div className={`p-5 rounded-full mb-6 ${
                 idx === 0 

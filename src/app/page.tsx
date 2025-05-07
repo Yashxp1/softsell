@@ -1,3 +1,4 @@
+import ContactForm from '@/components/ContactForm';
 import DarkModeToggle from '@/components/DarkModeToggle';
 import Features from '@/components/Features';
 import Footer from '@/components/Footer';
@@ -50,9 +51,12 @@ const page = () => {
           <Reviews />
         </div>
       </div>
-        <div className="">
-          <Footer />
-        </div>
+      <div className="pb-12">
+        <ContactForm />
+      </div>
+      <div className="">
+        <Footer />
+      </div>
     </div>
   );
 };

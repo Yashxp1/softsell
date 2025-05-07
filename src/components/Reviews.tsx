@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, Quote } from 'lucide-react';
+import { Star } from 'lucide-react';
 
 const testimonials = [
   {
@@ -47,25 +47,7 @@ const Reviews = () => {
               key={idx}
               className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden flex flex-col h-full"
             >
-              {/* Quote Icon */}
-              <div className="absolute -left-2 -top-2">
-                <div
-                  className={`p-3 rounded-full
-                  ${
-                    idx === 0
-                      ? 'bg-pink-100 dark:bg-pink-900/30 text-pink-500 dark:text-pink-300'
-                      : idx === 1
-                      ? 'bg-purple-100 dark:bg-purple-900/30 text-purple-500 dark:text-purple-300'
-                      : 'bg-indigo-100 dark:bg-indigo-900/30 text-indigo-500 dark:text-indigo-300'
-                  }`}
-                >
-                  <Quote size={24} />
-                </div>
-              </div>
-
-              {/* Content */}
               <div className="p-6 relative">
-                {/* Stars */}
                 <div className="flex mb-4">
                   {[...Array(testimonial.stars)].map((_, i) => (
                     <Star
@@ -76,12 +58,10 @@ const Reviews = () => {
                   ))}
                 </div>
 
-                {/* Quote */}
                 <p className="italic text-gray-600 dark:text-gray-300 mb-6">
                   "{testimonial.quote}"
                 </p>
 
-                {/* Person Info */}
                 <div className="mt-auto">
                   <h4 className="font-bold text-gray-800 dark:text-white">
                     {testimonial.name}

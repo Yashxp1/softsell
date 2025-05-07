@@ -36,7 +36,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+
           <div>
             <h3 className="text-gray-900 dark:text-white text-lg font-bold mb-4">Quick Links</h3>
             <ul>
@@ -50,7 +50,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Support */}
+
           <div>
             <h3 className="text-gray-900 dark:text-white text-lg font-bold mb-4">Support</h3>
             <ul>
@@ -64,7 +64,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
+     
           <div>
             <h3 className="text-gray-900 dark:text-white text-lg font-bold mb-4">Contact Us</h3>
             <ul>
@@ -84,7 +84,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Bar */}
+ 
         <div className="border-t border-gray-300 dark:border-gray-800 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 dark:text-gray-400">
             &copy; {currentYear} SoftSell. All rights reserved.

@@ -1,5 +1,4 @@
 import ContactForm from '@/components/ContactForm';
-import DarkModeToggle from '@/components/DarkModeToggle';
 import Features from '@/components/Features';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';

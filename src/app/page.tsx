@@ -7,7 +7,7 @@ import Reviews from '@/components/Reviews';
 import Working from '@/components/Working';
 import React from 'react';
 
-const homeBtn = ['Sell my Licenses', 'Learn More'];
+const homeBtn = ['Sell my Licenses'];
 
 const page = () => {
   return (
@@ -17,7 +17,7 @@ const page = () => {
       </div>
 
       <div className="flex flex-col md:mt-16 items-center justify-center  px-4 pt-10 pb-6 sm:px-6 sm:pt-14 sm:pb-10 md:px-10 md:pt-16 md:pb-12 lg:pt-20 lg:pb-16 text-center">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-black bg-gray-900 dark:bg-white bg-clip-text text-transparent drop-shadow-sm animate-gradient-x max-w-6xl mx-auto">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-black bg-gray-900 dark:bg-white bg-clip-text text-transparent drop-shadow-sm animate-gradient-x max-w-6xl mx-auto ">
           Unlock the Value of Your Unused Software Licenses.
         </h1>
 

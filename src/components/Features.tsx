@@ -30,15 +30,18 @@ const features = [
 
 const Features = () => {
   return (
-    <section id='learn-more' className="py-16 dark:bg-white/10 bg-white/40 backdrop-blur-lg border dark:border-white/20 border-white/50 rounded-lg">
+    <section
+      id="learn-more"
+      className="py-16 dark:bg-white/10 bg-white/40 backdrop-blur-lg border dark:border-white/20 border-white/50 rounded-lg"
+    >
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-6 bg-gradient-to-r from-pink-500 to-purple-600 dark:from-pink-400 dark:to-purple-500 bg-clip-text text-transparent">
           Why Choose SoftSell
         </h2>
 
         <p className="text-center max-w-2xl mx-auto mb-12 text-gray-600 dark:text-gray-300">
-          We're revolutionizing how businesses recover value from their software
-          investments. Here's what sets us apart:
+          We&apos;re revolutionizing how businesses recover value from their
+          software investments. Here&apos;s what sets us apart:
         </p>
 
         <div className="grid grid-cols-1   sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -76,7 +79,6 @@ const Features = () => {
         </div>
       </div>
 
-  
       <div className="container mx-auto px-6 mt-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           <div className="bg-white/70 dark:bg-gray-800/60 rounded-xl p-6 text-center">

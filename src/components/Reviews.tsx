@@ -37,8 +37,9 @@ const Reviews = () => {
         </h2>
 
         <p className="text-center max-w-2xl mx-auto mb-12 text-gray-600 dark:text-gray-300">
-          Don't just take our word for it — hear from the businesses that have
-          successfully sold their unused software licenses through SoftSell.
+          Don&apos;t just take our word for it — hear from the businesses that
+          have successfully sold their unused software licenses through
+          SoftSell.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
